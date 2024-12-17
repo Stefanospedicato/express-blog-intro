@@ -13,4 +13,9 @@ Configuriamo gli asset statici sull’applicazione in modo che si possano visual
 Testare su postman o Thunder Client
 
 ## Svolgimento
-- 
+- Ho creato innazitutto il mio file js iniziale e ho l'ho inizializzato con npm init.
+- Ho installato express con il terminale e l'ho importato nel mio file.
+- Ho importato poi l'app e la mia port.
+- Seguendo la consegna ho creato un array di 5 oggetti con le rispettive proprietà su un nuovo file chiamato data.js nella cartella data.
+- Ho poi creato la rotta "bacheca" che mi restituisce il json completo inizialmente con il conteggio dei post.
+- Infine ho configurato gli asset statici e ho testato con il browser se effettivamente riuscissi a far comparire le mie immagini alla modifica del mio url.
