@@ -9,8 +9,14 @@ app.get('/', (req,res)=>{
 })
 
 app.get('/bacheca', (req,res)=>{
-  res.json(posts);
+  const numeredPosts =  {
+    posts,
+    conteggio: posts.length
+  }
+  res.json(numeredPosts);
 })
+
+app.use(express.static('public'))
 
 app.listen(port,()=>{
   console.log('ASCOLTO');
